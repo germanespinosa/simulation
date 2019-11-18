@@ -1,10 +1,7 @@
 #!/bin/bash
-rm utf8-cpp/ -r --force
-rm catch/ -r --force
-rm ge211/ -r --force
-rm gcomm/ -r --force
-rm cellworld/ -r --force
-rm hexaworld/ -r --force
+rm simulation/ -r --force > /dev/null
+mkdir simulation
+cd simulation 
 
 git clone https://github.com/germanespinosa/utf8-cpp
 git clone https://github.com/germanespinosa/catch
