@@ -49,7 +49,6 @@ mkdir build/hexaworld -p
 cd build/hexaworld
 cmake ../../hexaworld
 make
-sudo make install
 cd - > /dev/null
 
 
