@@ -16,7 +16,7 @@ cd build/utf8-cpp
 cmake ../../utf8-cpp
 make
 sudo make install
-cd -
+cd - > /dev/null
 
 mkdir build/catch -p
 cd build/catch
@@ -29,27 +29,27 @@ cd build/ge211
 cmake ../../ge211
 make
 sudo make install
-cd -
+cd - > /dev/null
 
 mkdir build/gcomm -p
 cd build/gcomm
 cmake ../../gcomm
 make
 sudo make install
-cd -
+cd - > /dev/null
 
 mkdir build/cellworld -p
 cd build/cellworld
 cmake ../../cellworld
 make
 sudo make install
-cd -
+cd - > /dev/null
 
 mkdir build/hexaworld -p
 cd build/hexaworld
 cmake ../../hexaworld
 make
 sudo make install
-cd -
+cd - > /dev/null
 
 
