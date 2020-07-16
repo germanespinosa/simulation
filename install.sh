@@ -10,12 +10,12 @@ rm simulation/ -r --force > /dev/null
 mkdir simulation
 cd simulation 
 
-git clone git://germanespinosa/utf8-cpp.git
-git clone git://germanespinosa/catch.git
-git clone git://germanespinosa/ge211.git
-git clone git://germanespinosa/gcomm.git
-git clone git://germanespinosa/cellworld.git
-git clone git://germanespinosa/hexaworld.git
+git clone git://github.com/germanespinosa/utf8-cpp.git
+git clone git://github.com/germanespinosa/catch.git
+git clone git://github.com/germanespinosa/ge211.git
+git clone git://github.com/germanespinosa/gcomm.git
+git clone git://github.com/germanespinosa/cellworld.git
+git clone git://github.com/germanespinosa/hexaworld.git
 
 wget https://raw.githubusercontent.com/germanespinosa/simulation/master/buildall.sh
 chmod +777 buildall.sh
