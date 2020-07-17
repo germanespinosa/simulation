@@ -22,13 +22,6 @@ make
 make install
 cd - > /dev/null
 
-mkdir build/gcomm -p
-cd build/gcomm
-cmake ../../gcomm
-make
-make install
-cd - > /dev/null
-
 mkdir build/cellworld -p
 cd build/cellworld
 cmake ../../cellworld
