@@ -1,10 +1,4 @@
 #!/bin/bash
-apt install libesd0-dev -y
-apt install libwebp-dev libtiff-dev -y
-apt install libvorbis-dev libflac-dev libfluidsynth-dev libmodplug-dev -y
-apt install libsdl2-image-dev -y
-apt install libsdl2-mixer-dev -y
-apt install libsdl2-ttf-dev -y
 
 rm simulation/ -r --force > /dev/null
 mkdir simulation
